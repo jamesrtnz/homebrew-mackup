@@ -5,13 +5,9 @@ class Mackup < Formula
   homepage "https://github.com/jamesrtnz/mackup"
   url "file:///Users/james/GIT/JRT/jrt-mackup/dist/mackup-0.8.37a0.tar.gz"
   sha256 "d0f8ae49c754d5fff1b416a6f5fbd91d6b23e136cc63bb186af0197de0da1f60"
+  version "0.8.37-jrt"
   license "GPL-3.0-or-later"
   head "https://github.com/jamesrtnz/mackup.git", branch: "master"
-
-  bottle do
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_ventura:  "d0f8ae49c754d5fff1b416a6f5fbd91d6b23e136cc63bb186af0197de0da1f60"
-  end
 
   depends_on "python@3.11"
   depends_on "six"
