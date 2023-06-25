@@ -3,9 +3,9 @@ class Mackup < Formula
 
   desc "Keep your Mac's application settings in sync"
   homepage "https://github.com/jamesrtnz/mackup"
-  url "https://github.com/jamesrtnz/mackup/releases/download/0.8.37b/mackup-0.8.37b0.tar.gz"
-  sha256 "203d8e0684c9cfcb6affaee37a62bcc0760a056b0fa96bda4a026d77894cce70"
-  version "0.8.37b"
+  url "https://github.com/jamesrtnz/mackup/releases/download/v0.8.38-alpha/mackup-0.8.38a0.tar.gz"
+  sha256 "0ac2964a5ed99e84b58bb3b1d910c4cafba28222bdb204c7027a188e3c3c97d0"
+  version "0.8.38-alpha"
   license "GPL-3.0-or-later"
   head "https://github.com/jamesrtnz/mackup.git", branch: "master"
 
